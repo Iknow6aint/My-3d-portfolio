@@ -104,10 +104,7 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
+
     {
         name: "docker",
         icon: docker,
@@ -116,11 +113,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Backend  Developer",
+        company_name: "Edo inovates",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "November 2021 - April 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,8 +126,8 @@ const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Frontend Developer",
+        company_name: " Apprizzes",
         icon: tesla,
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
@@ -143,10 +140,11 @@ const experiences = [
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
+        company_name: "Sabi",
         icon: shopify,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Nov 2022 - Jan 2023",
+        date: "Nov 2022 - Jan 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,9 +196,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Memories",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "This is a web based version of locket that allows users to be able to share like and comment on there favorite moments",
         tags: [
             {
                 name: "react",
@@ -216,12 +214,12 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Iknow6aint/Memories-app/",
     },
     {
-        name: "Job IT",
+        name: "Uber X",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that enables Users to order rides from one destination to another in my school",
         tags: [
             {
                 name: "react",
@@ -237,28 +235,28 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Iknow6aint/uberx",
     },
     {
-        name: "Trip Guide",
+        name: "My finals",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An Meal Budgeting and food recommendation System that helps users Order food From verified vendors",
         tags: [
             {
-                name: "nextjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Node",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "MongoDb",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Iknow6aint/Finals",
     },
 ];
 
