@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    uberx,
+    mem
 } from "../assets";
 
 export const navLinks = [
@@ -174,7 +176,7 @@ const testimonials = [
         name: "Sara Lee",
         designation: "CFO",
         company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        //image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
         testimonial:
@@ -182,7 +184,7 @@ const testimonials = [
         name: "Chris Brown",
         designation: "COO",
         company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        //image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
         testimonial:
@@ -190,7 +192,7 @@ const testimonials = [
         name: "Lisa Wang",
         designation: "CTO",
         company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        // image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
 
@@ -213,7 +215,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: mem,
         source_code_link: "https://github.com/Iknow6aint/Memories-app/",
     },
     {
@@ -234,7 +236,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: uberx,
         source_code_link: "https://github.com/Iknow6aint/uberx",
     },
     {
