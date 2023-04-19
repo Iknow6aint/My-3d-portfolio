@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+// service 
+//
+//
 const Contact = () => {
     const formRef = useRef();
     const [form, setForm] = useState({
@@ -27,8 +31,41 @@ const Contact = () => {
         });
     };
     const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoading(true);
 
-    }
+        emailjs
+            .send(
+                "service_8pxx4io",
+                "template_kqdi6ju",
+                {
+                    from_name: form.name,
+                    to_name: "saint moses Agbukor",
+                    from_email: form.email,
+                    to_email: "saintagbukor@gmail.com",
+                    message: form.message,
+                },
+                "hpwlgTcffHiEB5giq"
+            )
+            .then(
+                () => {
+                    setLoading(false);
+                    alert("Thank you. I will get back to you as soon as possible.");
+
+                    setForm({
+                        name: "",
+                        email: "",
+                        message: "",
+                    });
+                },
+                (error) => {
+                    setLoading(false);
+                    console.error(error);
+
+                    alert("Ahh, something went wrong. Please try again.");
+                }
+            );
+    };
     return (
         <div
             className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
