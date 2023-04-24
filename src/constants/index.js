@@ -19,8 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+
     tripguide,
     threejs,
     uberx,
