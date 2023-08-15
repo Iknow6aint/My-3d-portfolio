@@ -31,7 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import uberx from './uberx.png'
 import mem from './mem.png'
-
+import edo from "./Edoinnovates.jpeg"
+import sabi from "./sabi.png"
+import telus from "./Telus.png"
+import fiver from "./FIVER.png"
 export {
     logo,
     backend,
@@ -62,5 +65,9 @@ export {
     jobit,
     tripguide,
     uberx,
-    mem
+    mem,
+    edo,
+    sabi,
+    telus,
+    fiver
 };

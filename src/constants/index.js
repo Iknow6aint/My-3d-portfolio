@@ -23,7 +23,11 @@ import {
     tripguide,
     threejs,
     uberx,
-    mem
+    mem,
+    edo,
+    sabi,
+    telus,
+    fiver
 } from "../assets";
 
 export const navLinks = [
@@ -116,7 +120,7 @@ const experiences = [
     {
         title: "Backend  Developer",
         company_name: "Edo inovates",
-        icon: starbucks,
+        icon: edo,
         iconBg: "#383E56",
         date: "November 2021 - April 2022",
         points: [
@@ -127,22 +131,21 @@ const experiences = [
         ],
     },
     {
-        title: "Frontend Developer",
-        company_name: " Apprizzes",
-        icon: tesla,
+        title: "Fullstack  Developer (Backend)",
+        company_name: " Freelance",
+        icon: fiver,
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Developing and maintaining web applications using Next.js and other related technologies.",
+            "Collaborating with cross-functional teams to design and implement good daabse and archtecture for the backend",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
         title: "Web Developer",
         company_name: "Sabi",
-        icon: shopify,
+        icon: sabi,
         iconBg: "#383E56",
         date: "Nov 2022 - Jan 2023",
         date: "Nov 2022 - Jan 2023",
@@ -154,15 +157,14 @@ const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Search Engine Evaluator",
+        company_name: "Telus",
+        icon: telus,
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Developing and maintaining web applications using SEO tools and other related technologies.",
+            "Implementing responsive queries and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
