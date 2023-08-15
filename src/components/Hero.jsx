@@ -1,8 +1,8 @@
-
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
+
 const Hero = () => {
     return (
         <section className={`relative w-full h-screen mx-auto`}>
@@ -16,7 +16,7 @@ const Hero = () => {
 
                 <div>
                     <h1 className={`${styles.heroHeadText} text-white`}>
-                        Hi, I'm <span className='text-[#915EFF]'>IknowSaint</span>
+                        Hi, I'm <span className='text-[#915EFF]'>SAINT</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                         I develop 3D visuals, user <br className='sm:block hidden' />
@@ -45,7 +45,7 @@ const Hero = () => {
                 </a>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;

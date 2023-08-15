@@ -27,7 +27,8 @@ import {
     edo,
     sabi,
     telus,
-    fiver
+    fiver,
+    foodie
 } from "../assets";
 
 export const navLinks = [
@@ -225,15 +226,15 @@ const projects = [
             "Web application that enables Users to order rides from one destination to another in my school",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "RestAPI",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
@@ -241,24 +242,24 @@ const projects = [
         source_code_link: "https://github.com/Iknow6aint/uberx",
     },
     {
-        name: "My finals",
+        name: "Foodie",
         description:
-            "An Meal Budgeting and food recommendation System that helps users Order food From verified vendors",
+            "An Meal Budgeting and food recommendation Moblie System that helps users Order food From verified vendors",
         tags: [
             {
-                name: "React",
+                name: "React Native",
                 color: "blue-text-gradient",
             },
             {
-                name: "Node",
+                name: "Typescript",
                 color: "green-text-gradient",
             },
             {
-                name: "MongoDb",
+                name: "Firebase",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: foodie,
         source_code_link: "https://github.com/Iknow6aint/Finals",
     },
 ];

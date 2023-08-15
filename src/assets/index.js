@@ -35,6 +35,7 @@ import edo from "./Edoinnovates.jpeg"
 import sabi from "./sabi.png"
 import telus from "./Telus.png"
 import fiver from "./FIVER.png"
+import foodie from "./Finals.jpg"
 export {
     logo,
     backend,
@@ -69,5 +70,6 @@ export {
     edo,
     sabi,
     telus,
-    fiver
+    fiver,
+    foodie
 };
